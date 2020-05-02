@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "baseUrl": "./",
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "jsx": "preserve",
+    "target": "esnext",
+    "sourceMap": true,
+    "strict": true,
+    "noEmitOnError": true,
+    "noEmit": true
+  },
+  "include": ["src/**/*", "*.js"],
+  "exclude": ["node_modules"]
+}
