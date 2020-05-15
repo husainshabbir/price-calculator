@@ -72,7 +72,8 @@ export default () => {
         <div className="flex p-3 -mx-1 bg-blue-100">
           <div className="w-1/2 px-1">
             <TextField
-              type="number"
+              type="text"
+              inputMode="decimal"
               name="item1price"
               placeholder="0.00"
               step="0.01"
@@ -84,7 +85,8 @@ export default () => {
           </div>
           <div className="w-1/2 px-1">
             <TextField
-              type="number"
+              type="text"
+              inputMode="decimal"
               name="item1weight"
               step="0.01"
               label="Weight"
@@ -109,7 +111,8 @@ export default () => {
         <div className="flex p-3 -mx-1 bg-blue-100">
           <div className="w-1/2 px-1">
             <TextField
-              type="number"
+              type="text"
+              inputMode="decimal"
               name="item2price"
               placeholder="0.00"
               step="0.01"
@@ -121,7 +124,8 @@ export default () => {
           </div>
           <div className="w-1/2 px-1">
             <TextField
-              type="number"
+              type="text"
+              inputMode="decimal"
               name="item2weight"
               step="0.01"
               label="Weight"
